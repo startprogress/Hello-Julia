@@ -21,3 +21,4 @@ julia helloworld.jl
 ## Reference
 1. https://docs.julialang.org/en/v1/
 2. https://julia-zh-cn.readthedocs.io/zh_CN/latest/
+3. https://julialang.org/learning/
