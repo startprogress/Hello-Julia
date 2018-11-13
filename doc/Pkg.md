@@ -61,5 +61,6 @@ Now let's look back the above material, and retrospect some concepts:
 3. **Package**: a project which provides reusable functionality that can be used by other Julia projects via import X or using X. A package should have a project file with a uuid entry giving its package UUID. This UUID is used to identify the package in projects that depend on it.
 4. **Application**: a project which provides standalone functionality not intended to be reused by other Julia projects. For example a web application or a command-line utility, or simulation/analytics code accompanying a scientific paper. An application may have a UUID but does not need one. An application may also provide global configuration options for packages it depends on. Packages, on the other hand, may not provide global configuration since that could conflict with the configuration of the main application.
 
-
+### Reference
+https://docs.julialang.org/en/v1/stdlib/Pkg
 
